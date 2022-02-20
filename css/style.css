@@ -3,19 +3,19 @@
 	margin:0;
 }
 
+
 /* Criando a nav-bar */
 
 .nav-bar{
 	max-width:2000px;
-	height:150px;
+	height:100px;
 	background-color:#000;
-	position: relative;
 }
 
 /* Cirando a logo da nav-bar */
 
 .nav-bar .logo{
-	padding:45px 150px;
+	padding:25px 150px;
 	max-width:100px;
 	max-height:100px;
 }
@@ -41,7 +41,7 @@
 .nav-bar .nav ul li{
 	float: left;
 	padding-left:55px;
-	margin-top:70px;
+	margin-top:45px;
 }
 
 .nav-bar .nav ul li a{
