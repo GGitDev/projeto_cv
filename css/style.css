@@ -7,15 +7,16 @@
 /* Criando a nav-bar */
 
 .nav-bar{
-	max-width:2000px;
+	max-width:100%;
 	height:100px;
 	background-color:#000;
+	border-bottom: 3px solid #744ecb;
 }
 
 /* Cirando a logo da nav-bar */
 
 .nav-bar .logo{
-	padding:25px 150px;
+	padding:23px 150px;
 	max-width:100px;
 	max-height:100px;
 }
@@ -52,3 +53,28 @@
 span{
 	font-weight: bold;
 }
+
+/* Colocando a imagim a baixo da nav */
+
+.div-img-home{
+ max-width:100%;
+ height:100px;
+ z-index: -9;
+ position: relative;
+}
+
+.div-img-home img{
+	max-width:100%;
+	height:auto;
+	position: absolute;
+	top:-135px;
+}
+
+.article{
+	background-color:#000;
+	color:#fff;
+	height:1000px;
+	padding-top:50px;
+	padding-left: 150px;
+}
+
