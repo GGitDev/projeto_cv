@@ -78,9 +78,16 @@ span {
   top: 100px;
   left: 300px;
   text-align: center;
+}
 
-  @media and (max-width:720){
-    left:300;
+@media screen and (max-width: 720px) {
+  .msg-home {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    text-align: center;
   }
 }
 
