@@ -168,6 +168,7 @@ span {
 .article-sobre{
   width:100%;
   height:500px;
+  display: inline-block;
 }
 
 .h1-sobre{
@@ -187,10 +188,10 @@ span {
 
 .proposito{
   display: inline-block;
+  margin-left:200px;
 }
 
 .proposito-q{
-  margin-left:200px;
   margin-top:50px;
   font-size:24px;
 }
@@ -198,13 +199,11 @@ span {
 .div-resposta{
   height:100px;
   width:400px;
-  margin-left: 200px;
   margin-top:10px;
   font-size: 18px;
 }
 
 .b-sobre{
-  margin-left: 200px;
   width:100px;
   height:25px;
   background-color: lightgray;
