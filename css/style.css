@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+
 }
 
 /* botão-portfólio */
@@ -78,21 +79,21 @@ span {
   width: 100%;
   height: 500px;
   background-color: #000;
-  position: relative;
+  position:relative;
+  
 }
 
 .msg-home {
-  width: 50%;
+  width: 100%;
   height: 50%;
-  position: absolute;
+  position: relative;
   top: 100px;
-  left: 360px;
   text-align: center;
+  
 }
 
 .frase-home {
   color: #fff;
-  align-content: center;
   margin-top: 70px;
   display: inline-block;
 }
@@ -221,8 +222,7 @@ span {
 }
 
 .sobrebt{
-  position: absolute;
-  right:150px;
-  bottom:-550px;
+  margin-top:105px;
+  margin-left:350px;
 }
 
