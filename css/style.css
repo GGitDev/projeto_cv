@@ -78,6 +78,10 @@ span {
   top: 100px;
   left: 300px;
   text-align: center;
+
+  @media and (max-width:720){
+    left:300;
+  }
 }
 
 .frase-home {
