@@ -17,47 +17,49 @@
 /* Criando a nav-bar */
 
 .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 130px;
   max-width: 100%;
   height: 100px;
   background-color: #000;
   border-bottom: 3px solid #744ecb;
+
 }
 
 /* Criando a logo da nav-bar */
 
 .nav-bar .logo {
-  padding: 23px 130px;
-  max-width: 100px;
-  max-height: 100px;
+  width: 60px;
+  height: 70px;
 }
 
 .nav-bar .logo img {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 /* Criando a nav */
 
 .nav-bar .nav {
-  top: 0;
-  right: 0;
-  position: absolute;
-  margin-right: 150px;
+  
 }
 
 .nav-bar .nav ul {
   list-style: none;
+  justify-content: space-between;
 }
 
 .nav-bar .nav ul li {
-  float: left;
-  padding-left: 55px;
-  margin-top: 45px;
+  display: inline;
+  padding-left:40px;
 }
 
 .nav-bar .nav ul li a {
   color: #fff;
   text-decoration: none;
+  padding:20px;
 }
 
 span {
