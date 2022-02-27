@@ -194,6 +194,7 @@ main {
   display: flex;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
 }
 
 .article2-proposito {
@@ -207,7 +208,7 @@ main {
 
 .article2-proposito-resposta {
   height: 100px;
-  max-width: 400px;
+  width: 400px;
   margin-top: 10px;
   font-size: 18px;
   padding: 20px 0;
