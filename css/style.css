@@ -1,22 +1,35 @@
+/* Geral */
 * {
   padding: 0;
   margin: 0;
-
 }
 
 /* botão-portfólio */
 
 .botao-portfolio {
-  width: 100px;
+  width: 103px;
   height: 30px;
   background-color: #744ecb;
   border-radius: 100px;
   padding-top: 10px;
 }
 
+.botao-portfolio a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
 /* Criando a nav-bar */
 
-.nav-bar {
+header {
+}
+
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,96 +38,69 @@
   height: 100px;
   background-color: #000;
   border-bottom: 3px solid #744ecb;
-
 }
 
 /* Criando a logo da nav-bar */
 
-.nav-bar .logo {
+header nav .logo {
   width: 60px;
   height: 70px;
 }
 
-.nav-bar .logo img {
+header nav .logo .img-nav {
   max-width: 100px;
   max-height: 100px;
 }
 
 /* Criando a nav */
 
-.nav-bar .nav {
-  
+header nav .nav-bar {
 }
 
-.nav-bar .nav ul {
+header nav .nav-bar ul {
   list-style: none;
   justify-content: space-between;
 }
 
-.nav-bar .nav ul li {
+header nav .nav-bar ul li {
   display: inline;
-  padding-left:60px;
+  padding-left: 60px;
 }
 
-.nav-bar .nav ul li a {
+header nav .nav-bar ul li a {
   color: #fff;
   text-decoration: none;
-  padding:20px;
+  padding: 20px;
 }
 
-span {
-  font-weight: bold;
+/* Body-Main */
+
+main {
+  width: 100%;
+  height: 100%;
 }
 
 /* Colocando a imagim a baixo da nav */
-.article-img-home{
-  width:100%;
-  height:150px;
+
+.article-img-home {
+  width: 100%;
+  height: 150px;
   background: url("../img/imgs2/img-home.png") no-repeat center;
-  background-size:cover;
+  background-size: cover;
   opacity: 90%;
 }
 
-/* Colocando a msg-home */
+/* Article1 msg-home */
 
-.article-msg-home {
+.article1-msg-home {
   width: 100%;
   height: 500px;
   background-color: #000;
-  position:relative;
-  
-}
-
-.msg-home {
-  width: 100%;
-  height: 50%;
   position: relative;
-  top: 100px;
-  text-align: center;
-  
+  z-index: -1;
 }
 
-.frase-home {
-  color: #fff;
-  margin-top: 70px;
-  display: inline-block;
-}
-
-.frase-home:after {
-  content: "";
-  width: 100px;
-  background-color: #744ecb;
-  display: block;
-  height: 2px;
-  width: 250px;
-  margin: 20px auto;
-}
-.autor {
-  color: #fff;
-  align-content: center;
-}
-
-/* Botao-perfil */
+/* Botão-perfil */
 
 .botao-perfil {
   width: 30px;
@@ -137,12 +123,138 @@ span {
   transition: opacity 0.5s linear;
   padding-left: 70px;
 }
+
 .item:hover .descricao {
   visibility: visible;
   opacity: 1;
   color: #fff;
 }
 
+/* MSG-Home */
+
+.div-msg-home {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.frase-home {
+  color: #fff;
+  margin-top: 70px;
+  display: inline-block;
+}
+
+.frase-home:after {
+  content: "";
+  width: 100px;
+  background-color: #744ecb;
+  display: block;
+  height: 2px;
+  width: 250px;
+  margin: 20px auto;
+}
+
+.autor {
+  color: #fff;
+  align-content: center;
+}
+
+/* botão-portfólio-MSG1 */
+
+.botao-portfolio-MSG1 {
+  position: absolute;
+  bottom: 10px;
+  right: 150px;
+  margin-bottom: 40px;
+}
+
+/* H1-sobre */
+
+.h1-sobre {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.h1-sobre:after {
+  content: "";
+  background-color: #744ecb;
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: auto;
+}
+
+/* Article2-sobre */
+
+.article2-sobre {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.article2-proposito {
+  padding-left: 350px;
+}
+
+.article2-proposito-pergunta {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.article2-proposito-resposta {
+  height: 100px;
+  max-width: 400px;
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+/* article2-botao-saibamais */
+
+.article2-botao-saibamais {
+  width: 100px;
+  height: 25px;
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+.article2-botao-saibamais a {
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Sobre-Gilberto */
+
+.article2-sobre-pergunta {
+  margin-top: 50px;
+  padding-right: 130px;
+}
+
+.article2-sobre-resposta {
+  height: 100px;
+  max-width: 400px;
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+/* botão-portfólio-sobre */
+
+.botao-portfolio-sobre {
+  position: relative;
+  top: 400px;
+  right: 150px;
+  margin-bottom: 40px;
+}
+
+/* Resto */
 .article {
   background-color: #000;
   color: #fff;
@@ -150,82 +262,3 @@ span {
   padding-top: 50px;
   padding-left: 150px;
 }
-
-/* botão-portfólio */
-
-.homebt{
-  position: absolute;
-  bottom: 10px;
-  right: 150px;
-  margin-bottom: 40px;
-}
-
-.botao-portfolio a {
-  text-decoration: none;
-  color: #fff;
-  padding: 20px;
-}
-
-/* Article-sobre */
-
-.article-sobre{
-  width:100%;
-  height:500px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.h1-sobre{
-  text-align: center;
-  padding-top: 25px;
-
-}
-
-.h1-sobre:after{
-  content:"";
-  background-color: #744ecb ;
-  display:block;
-  width: 100px;
-  height: 2px;
-  margin:auto ;
-}
-
-.proposito{
-  
-}
-
-.proposito-q{
-  margin-top:50px;
-  font-size:24px;
-}
-
-.div-resposta{
-  height:100px;
-  max-width:400px;
-  margin-top:10px;
-  font-size: 18px;
-}
-
-.b-sobre{
-  width:100px;
-  height:25px;
-  background-color: lightgray;
-  text-align: center;
-}
-
-.b-sobre a{
-  padding:5px;
-  text-decoration: none;
-  color: #000;
-}
-
-.Q-Gil{
-  float:right;
-  margin-right:200px;
-}
-
-.sobrebt{
-  margin-top:105px;
-  margin-left:350px;
-}
-
