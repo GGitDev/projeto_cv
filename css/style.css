@@ -24,6 +24,11 @@ span {
   font-weight: bold;
 }
 
+.home-s {
+  border: #fff solid 3px;
+  border-radius: 20%;
+}
+
 /* Criando a nav-bar */
 
 header {
@@ -78,7 +83,6 @@ header nav .nav-bar ul li a {
 main {
   width: 100%;
   height: 100%;
-  background-color: #000;
 }
 
 /* Colocando a imagim a baixo da nav */
@@ -92,16 +96,20 @@ main {
 }
 
 /* Article1 msg-home */
-
 .article1-msg-home {
+  padding-top: 1px;
+  width: 100%;
+  height: 450px;
+  background: #000;
+}
+
+.bg-at1 {
   width: 90%;
-  max-width:980px;
-  height: 500px;
+  max-width: 980px;
+  height: 400px;
   background-color: #000;
   margin: 0 auto;
 }
-
-
 
 /* Botão-perfil */
 
@@ -141,7 +149,6 @@ main {
 
 .frase-home {
   color: #fff;
-  margin-top: 70px;
   display: inline-block;
 }
 
@@ -163,12 +170,12 @@ main {
 /* botão-portfólio-MSG1 */
 
 .botao-portfolio-MSG1 {
-  margin:50px 875px;
+  margin: 50px 875px;
 }
 
-@media screen and (max-width:1040px){
+@media screen and (max-width: 1040px) {
   .botao-portfolio-MSG1 {
-    margin:50px 800px;
+    margin: 50px 800px;
   }
 }
 
@@ -178,7 +185,6 @@ main {
   text-align: center;
   padding-top: 25px;
   background-color: #fff;
-
 }
 
 .h1-sobre:after {
@@ -194,7 +200,7 @@ main {
 
 .article2-sobre {
   width: 100%;
-  max-width:980px;
+  max-width: 980px;
   height: 500px;
   margin: auto;
 
@@ -208,7 +214,6 @@ main {
 }
 
 .article2-proposito-pergunta {
-
 }
 
 .article2-proposito-resposta {
@@ -232,7 +237,6 @@ main {
   color: #000;
 }
 
-
 /* botão-portfólio-sobre */
 
 .botao-portfolio-sobre {
@@ -240,7 +244,7 @@ main {
   margin-left: 385px;
 }
 
-@media screen and (max-width:1040px){
+@media screen and (max-width: 1040px) {
   .botao-portfolio-sobre {
     margin-top: 20px;
     margin-left: 355px;
@@ -248,10 +252,29 @@ main {
 }
 
 /* Resto */
+
+.ultima-article {
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
 .article {
+  padding-top: 50px;
   background-color: #000;
   color: #fff;
-  height: 1000px;
-  padding-top: 50px;
-  padding-left: 150px;
+  height: 500px;
+  max-width: 980px;
+}
+
+footer {
+  width: 100%;
+  max-width: 980px;
+  height: 80px;
+  margin: auto;
+}
+
+h3 {
+  padding-top: 25px;
+  text-align: center;
 }
