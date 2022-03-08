@@ -94,13 +94,13 @@ main {
 
 /* Colocando a imagim a baixo da nav */
 
-.article-img-home {
+/* .article-img-home {
   width: 100%;
   height: 150px;
   background: url("../img/imgs2/img-home.png") no-repeat center;
   background-size: cover;
   opacity: 90%;
-}
+} */
 
 /* Article1 msg-home */
 .article1-msg-home {
@@ -116,6 +116,7 @@ main {
   height: 400px;
   background-color: #000;
   margin: 0 auto;
+  
 }
 
 /* Botão-perfil */
@@ -219,11 +220,17 @@ main {
   display: flex;
   justify-content: space-around;
   background-color: #fff;
-  padding-top: 80px;
+  padding-top: 50px;
+
+  
 }
 
 .article2-proposito {
   width: 400px;
+  border: 3px #744ecb solid;
+  border-radius: 2%;
+  height:300px;
+  padding: 10px;
 }
 
 .article2-pergunta {
@@ -237,6 +244,10 @@ h4 {
 
 .article2-sobre-gil {
   width: 400px;
+  border: 3px #744ecb solid;
+  border-radius: 2%;
+  height:300px;
+  padding:10px;
 }
 
 /* article2-botao-saibamais */
@@ -260,22 +271,10 @@ h4 {
 
 .botao-portfolio-sobre {
   margin-top: 20px;
-  margin-left: 325px;
+  margin-left: 300px;
 }
 
-@media screen and (max-width: 1024px) {
-  .botao-portfolio-sobre {
-    margin-top: 20px;
-    margin-left: 285px;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .botao-portfolio-sobre {
-    margin-top: 20px;
-    margin-left: 310px;
-  }
-}
 
 /* Resto */
 
