@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-
 /* botão-portfólio */
 
 .botao-portfolio {
@@ -14,9 +13,7 @@
   border-radius: 100px;
   padding-top: 10px;
   z-index: 500;
- 
 }
-
 
 .botao-portfolio a {
   text-decoration: none;
@@ -28,7 +25,7 @@ span {
   font-weight: bold;
 }
 
-.btn{
+.btn {
   font-size: 14px;
 }
 
@@ -44,12 +41,7 @@ header {
   height: 100px;
 
   border-bottom: 3px solid;
-  border-image: 
-    linear-gradient(
-      to right,  
-      #000,
-      #744ecb
-    ) 1;
+  border-image: linear-gradient(to right, #000, #744ecb) 1;
 }
 
 header nav {
@@ -135,7 +127,6 @@ main {
   margin-top: 50px;
 }
 
-
 .descricao {
   width: 300px;
   height: 50px;
@@ -161,7 +152,6 @@ main {
   position: relative;
   top: 100px;
   text-align: center;
-  
 }
 
 .frase-home {
@@ -189,9 +179,15 @@ main {
   margin: 50px 875px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1076px) {
   .botao-portfolio-MSG1 {
-    margin: 50px 800px;
+    margin: 50px 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .botao-portfolio-MSG1 {
+    margin: 50px 660px;
   }
 }
 
@@ -217,33 +213,31 @@ main {
 .article2-sobre {
   width: 80%;
   max-width: 980px;
-  height: 500px;
+  height: 370px;
   margin: auto;
 
   display: flex;
   justify-content: space-around;
   background-color: #fff;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .article2-proposito {
-  padding-right: 150px;
+  width: 400px;
 }
 
 .article2-pergunta {
   padding-bottom: 20px;
 }
 
-h4{
-  font: 24px;
+h4 {
+  font-size: 18px;
   line-height: 20px;
-  flex-grow: 1;
 }
 
-.article2-sobre-gil{
-  
+.article2-sobre-gil {
+  width: 400px;
 }
-
 
 /* article2-botao-saibamais */
 
@@ -266,13 +260,20 @@ h4{
 
 .botao-portfolio-sobre {
   margin-top: 20px;
-  margin-left: 385px;
+  margin-left: 325px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1024px) {
   .botao-portfolio-sobre {
     margin-top: 20px;
-    margin-left: 355px;
+    margin-left: 285px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .botao-portfolio-sobre {
+    margin-top: 20px;
+    margin-left: 310px;
   }
 }
 
