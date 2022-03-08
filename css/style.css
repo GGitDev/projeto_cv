@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+
 /* botão-portfólio */
 
 .botao-portfolio {
@@ -12,7 +13,10 @@
   background-color: #744ecb;
   border-radius: 100px;
   padding-top: 10px;
+  z-index: 500;
+ 
 }
+
 
 .botao-portfolio a {
   text-decoration: none;
@@ -22,6 +26,10 @@
 
 span {
   font-weight: bold;
+}
+
+.btn{
+  font-size: 14px;
 }
 
 .home-s {
@@ -34,7 +42,14 @@ span {
 header {
   background-color: #000;
   height: 100px;
-  border-bottom: 3px solid #744ecb;
+
+  border-bottom: 3px solid;
+  border-image: 
+    linear-gradient(
+      to right,  
+      #000,
+      #744ecb
+    ) 1;
 }
 
 header nav {
@@ -43,7 +58,7 @@ header nav {
   align-items: center;
 
   max-width: 980px;
-  width: 100%;
+  width: 80%;
   height: 100%;
 
   margin: auto;
@@ -104,7 +119,7 @@ main {
 }
 
 .bg-at1 {
-  width: 90%;
+  width: 80%;
   max-width: 980px;
   height: 400px;
   background-color: #000;
@@ -119,6 +134,7 @@ main {
   background-color: #744ecb;
   margin-top: 50px;
 }
+
 
 .descricao {
   width: 300px;
@@ -145,6 +161,7 @@ main {
   position: relative;
   top: 100px;
   text-align: center;
+  
 }
 
 .frase-home {
@@ -154,7 +171,6 @@ main {
 
 .frase-home:after {
   content: "";
-  width: 100px;
   background-color: #744ecb;
   display: block;
   height: 2px;
@@ -199,26 +215,35 @@ main {
 /* Article2-sobre */
 
 .article2-sobre {
-  width: 100%;
+  width: 80%;
   max-width: 980px;
   height: 500px;
   margin: auto;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #fff;
   padding-top: 50px;
 }
 
 .article2-proposito {
+  padding-right: 150px;
 }
 
-.article2-proposito-pergunta {
+.article2-pergunta {
+  padding-bottom: 20px;
 }
 
-.article2-proposito-resposta {
-  max-width: 200px;
+h4{
+  font: 24px;
+  line-height: 20px;
+  flex-grow: 1;
 }
+
+.article2-sobre-gil{
+  
+}
+
 
 /* article2-botao-saibamais */
 
@@ -268,7 +293,7 @@ main {
 }
 
 footer {
-  width: 100%;
+  width: 80%;
   max-width: 980px;
   height: 80px;
   margin: auto;
