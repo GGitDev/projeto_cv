@@ -212,11 +212,12 @@ main {
 /* Article2-sobre */
 
 .article2-sobre {
-  width: 80%;
   max-width: 980px;
-  height: 370px;
-  margin: auto;
+  width: 80%;
+  height: 500px;
+  
 
+  margin: auto;
   display: flex;
   justify-content: space-around;
   background-color: #fff;
@@ -225,29 +226,27 @@ main {
   
 }
 
-.article2-proposito {
-  width: 400px;
-  border: 3px #744ecb solid;
-  border-radius: 2%;
-  height:300px;
-  padding: 10px;
-}
-
 .article2-pergunta {
   padding-bottom: 20px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1em;
   line-height: 20px;
+  flex-wrap: nowrap;
 }
 
-.article2-sobre-gil {
-  width: 400px;
+.article2 {
+  width: 100%;
+  max-width:400px;
   border: 3px #744ecb solid;
   border-radius: 2%;
-  height:300px;
-  padding:10px;
+
+  max-height:350px;
+
+  padding:30px 10px;
+  margin: 0 10px;
+  overflow: hidden;
 }
 
 /* article2-botao-saibamais */
@@ -270,8 +269,8 @@ h4 {
 /* botão-portfólio-sobre */
 
 .botao-portfolio-sobre {
-  margin-top: 20px;
-  margin-left: 300px;
+  margin-top: 15%;
+  margin-left: 70%;
 }
 
 
