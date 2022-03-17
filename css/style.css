@@ -384,39 +384,3 @@ h3 {
 
 
 
-
-
-
-
-
-
-
-.container{
-  border:3px solid #000;
-  width:500px;
-  min-height:400px;
-  margin: 50px auto;
-  
-  align-content: flex-start;
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.item{
-  background-color: #744ecb;
-  padding:5px;
-  margin: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
